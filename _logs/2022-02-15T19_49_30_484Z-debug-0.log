@@ -1,0 +1,367 @@
+0 verbose cli [
+0 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+0 verbose cli   'C:\\Users\\moukm\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'uninstall',
+0 verbose cli   '-g',
+0 verbose cli   '@angular/cli'
+0 verbose cli ]
+1 info using npm@8.5.0
+2 info using node@v16.13.0
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 5ms
+5 timing config:load:file:C:\Users\moukm\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 47ms
+6 timing config:load:builtin Completed in 62ms
+7 timing config:load:cli Completed in 42ms
+8 timing config:load:env Completed in 7ms
+9 timing config:load:project Completed in 25ms
+10 timing config:load:file:C:\Users\moukm\.npmrc Completed in 2ms
+11 timing config:load:user Completed in 2ms
+12 timing config:load:file:C:\Users\moukm\AppData\Roaming\npm\etc\npmrc Completed in 1ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:validate Completed in 2ms
+15 timing config:load:credentials Completed in 5ms
+16 timing config:load:setEnvs Completed in 3ms
+17 timing config:load Completed in 163ms
+18 timing npm:load:configload Completed in 164ms
+19 timing npm:load:setTitle Completed in 3ms
+20 timing config:load:flatten Completed in 15ms
+21 timing npm:load:display Completed in 22ms
+22 verbose logfile C:\Users\moukm\AppData\Local\npm-cache\_logs\2022-02-15T19_49_30_484Z-debug-0.log
+23 timing npm:load:logFile Completed in 30ms
+24 timing npm:load:timers Completed in 0ms
+25 timing npm:load:configScope Completed in 0ms
+26 timing npm:load Completed in 229ms
+27 timing arborist:ctor Completed in 1ms
+28 silly logfile start cleaning logs, removing 1 files
+29 timing idealTree:init Completed in 18ms
+30 timing idealTree:userRequests Completed in 1ms
+31 silly idealTree buildDeps
+32 timing idealTree:#root Completed in 0ms
+33 timing idealTree:buildDeps Completed in 2ms
+34 timing idealTree:fixDepFlags Completed in 1ms
+35 timing idealTree Completed in 26ms
+36 timing reify:loadTrees Completed in 1021ms
+37 timing reify:diffTrees Completed in 16ms
+38 silly reify mark retired [
+38 silly reify   'C:\\Users\\moukm\\AppData\\Roaming\\npm\\node_modules\\@angular\\cli',
+38 silly reify   'C:\\Users\\moukm\\AppData\\Roaming\\npm\\ng',
+38 silly reify   'C:\\Users\\moukm\\AppData\\Roaming\\npm\\ng.cmd',
+38 silly reify   'C:\\Users\\moukm\\AppData\\Roaming\\npm\\ng.ps1'
+38 silly reify ]
+39 silly reify moves {
+39 silly reify   'C:\\Users\\moukm\\AppData\\Roaming\\npm\\node_modules\\@angular\\cli': 'C:\\Users\\moukm\\AppData\\Roaming\\npm\\node_modules\\@angular\\.cli-DHyy83SA',
+39 silly reify   'C:\\Users\\moukm\\AppData\\Roaming\\npm\\ng': 'C:\\Users\\moukm\\AppData\\Roaming\\npm\\.ng-plveNBtz',
+39 silly reify   'C:\\Users\\moukm\\AppData\\Roaming\\npm\\ng.cmd': 'C:\\Users\\moukm\\AppData\\Roaming\\npm\\.ng.cmd-iIL9RPB7',
+39 silly reify   'C:\\Users\\moukm\\AppData\\Roaming\\npm\\ng.ps1': 'C:\\Users\\moukm\\AppData\\Roaming\\npm\\.ng.ps1-bWC5Apnq'
+39 silly reify }
+40 timing reify:retireShallow Completed in 161ms
+41 timing reify:createSparse Completed in 0ms
+42 timing reify:loadBundles Completed in 0ms
+43 silly audit report null
+44 timing reify:audit Completed in 1ms
+45 timing reify:unpack Completed in 1ms
+46 timing reify:unretire Completed in 0ms
+47 timing build:queue Completed in 0ms
+48 timing build:deps Completed in 0ms
+49 timing build Completed in 2ms
+50 timing reify:build Completed in 2ms
+51 timing reify:trash Completed in 13941ms
+52 timing reify Completed in 15182ms
+53 silly REMOVE node_modules/@angular/cli
+54 silly REMOVE node_modules/@angular/cli/node_modules/sshpk
+55 silly REMOVE node_modules/@angular/cli/node_modules/@angular-devkit/schematics
+56 silly REMOVE node_modules/@angular/cli/node_modules/@angular-devkit/architect
+57 silly REMOVE node_modules/@angular/cli/node_modules/@angular-devkit/core
+58 silly REMOVE node_modules/@angular/cli/node_modules/uri-js
+59 silly REMOVE node_modules/@angular/cli/node_modules/wrappy
+60 silly REMOVE node_modules/@angular/cli/node_modules/@schematics/angular
+61 silly REMOVE node_modules/@angular/cli/node_modules/@schematics/update
+62 silly REMOVE node_modules/@angular/cli/node_modules/@yarnpkg/lockfile
+63 silly REMOVE node_modules/@angular/cli/node_modules/y18n
+64 silly REMOVE node_modules/@angular/cli/node_modules/xtend
+65 silly REMOVE node_modules/@angular/cli/node_modules/yallist
+66 silly REMOVE node_modules/@angular/cli/node_modules/validate-npm-package-license
+67 silly REMOVE node_modules/@angular/cli/node_modules/validate-npm-package-name
+68 silly REMOVE node_modules/@angular/cli/node_modules/wcwidth
+69 silly REMOVE node_modules/@angular/cli/node_modules/symbol-observable
+70 silly REMOVE node_modules/@angular/cli/node_modules/verror
+71 silly REMOVE node_modules/@angular/cli/node_modules/verror/node_modules/core-util-is
+72 silly REMOVE node_modules/@angular/cli/node_modules/uuid
+73 silly REMOVE node_modules/@angular/cli/node_modules/which
+74 silly REMOVE node_modules/@angular/cli/node_modules/which-boxed-primitive
+75 silly REMOVE node_modules/@angular/cli/node_modules/util-promisify
+76 silly REMOVE node_modules/@angular/cli/node_modules/universal-analytics
+77 silly REMOVE node_modules/@angular/cli/node_modules/universal-analytics/node_modules/uuid
+78 silly REMOVE node_modules/@angular/cli/node_modules/unique-filename
+79 silly REMOVE node_modules/@angular/cli/node_modules/util-deprecate
+80 silly REMOVE node_modules/@angular/cli/node_modules/unique-slug
+81 silly REMOVE node_modules/@angular/cli/node_modules/unbox-primitive
+82 silly REMOVE node_modules/@angular/cli/node_modules/tslib
+83 silly REMOVE node_modules/@angular/cli/node_modules/type-fest
+84 silly REMOVE node_modules/@angular/cli/node_modules/tweetnacl
+85 silly REMOVE node_modules/@angular/cli/node_modules/typedarray
+86 silly REMOVE node_modules/@angular/cli/node_modules/tunnel-agent
+87 silly REMOVE node_modules/@angular/cli/node_modules/rxjs
+88 silly REMOVE node_modules/@angular/cli/node_modules/tar
+89 silly REMOVE node_modules/@angular/cli/node_modules/tar/node_modules/yallist
+90 silly REMOVE node_modules/@angular/cli/node_modules/through
+91 silly REMOVE node_modules/@angular/cli/node_modules/tmp
+92 silly REMOVE node_modules/@angular/cli/node_modules/tough-cookie
+93 silly REMOVE node_modules/@angular/cli/node_modules/supports-preserve-symlinks-flag
+94 silly REMOVE node_modules/@angular/cli/node_modules/string.prototype.trimstart
+95 silly REMOVE node_modules/@angular/cli/node_modules/through2
+96 silly REMOVE node_modules/@angular/cli/node_modules/strip-ansi
+97 silly REMOVE node_modules/@angular/cli/node_modules/stream-each
+98 silly REMOVE node_modules/@angular/cli/node_modules/supports-color
+99 silly REMOVE node_modules/@angular/cli/node_modules/semver
+100 silly REMOVE node_modules/@angular/cli/node_modules/string.prototype.trimend
+101 silly REMOVE node_modules/@angular/cli/node_modules/string_decoder
+102 silly REMOVE node_modules/@angular/cli/node_modules/string_decoder/node_modules/safe-buffer
+103 silly REMOVE node_modules/@angular/cli/node_modules/string-width
+104 silly REMOVE node_modules/@angular/cli/node_modules/ssri
+105 silly REMOVE node_modules/@angular/cli/node_modules/stream-shift
+106 silly REMOVE node_modules/@angular/cli/node_modules/spdx-expression-parse
+107 silly REMOVE node_modules/@angular/cli/node_modules/spdx-correct
+108 silly REMOVE node_modules/@angular/cli/node_modules/spdx-license-ids
+109 silly REMOVE node_modules/@angular/cli/node_modules/smart-buffer
+110 silly REMOVE node_modules/@angular/cli/node_modules/spdx-exceptions
+111 silly REMOVE node_modules/@angular/cli/node_modules/socks-proxy-agent
+112 silly REMOVE node_modules/@angular/cli/node_modules/socks-proxy-agent/node_modules/agent-base
+113 silly REMOVE node_modules/@angular/cli/node_modules/socks
+114 silly REMOVE node_modules/@angular/cli/node_modules/sourcemap-codec
+115 silly REMOVE node_modules/@angular/cli/node_modules/source-map
+116 silly REMOVE node_modules/@angular/cli/node_modules/safe-buffer
+117 silly REMOVE node_modules/@angular/cli/node_modules/side-channel
+118 silly REMOVE node_modules/@angular/cli/node_modules/signal-exit
+119 silly REMOVE node_modules/@angular/cli/node_modules/safer-buffer
+120 silly REMOVE node_modules/@angular/cli/node_modules/semver-intersect
+121 silly REMOVE node_modules/@angular/cli/node_modules/semver-intersect/node_modules/semver
+122 silly REMOVE node_modules/@angular/cli/node_modules/restore-cursor
+123 silly REMOVE node_modules/@angular/cli/node_modules/resolve
+124 silly REMOVE node_modules/@angular/cli/node_modules/run-queue
+125 silly REMOVE node_modules/@angular/cli/node_modules/request
+126 silly REMOVE node_modules/@angular/cli/node_modules/request/node_modules/uuid
+127 silly REMOVE node_modules/@angular/cli/node_modules/rimraf
+128 silly REMOVE node_modules/@angular/cli/node_modules/read-package-json
+129 silly REMOVE node_modules/@angular/cli/node_modules/retry
+130 silly REMOVE node_modules/@angular/cli/node_modules/readable-stream
+131 silly REMOVE node_modules/@angular/cli/node_modules/readable-stream/node_modules/safe-buffer
+132 silly REMOVE node_modules/@angular/cli/node_modules/run-async
+133 silly REMOVE node_modules/@angular/cli/node_modules/readdir-scoped-modules
+134 silly REMOVE node_modules/@angular/cli/node_modules/punycode
+135 silly REMOVE node_modules/@angular/cli/node_modules/read-package-tree
+136 silly REMOVE node_modules/@angular/cli/node_modules/pump
+137 silly REMOVE node_modules/@angular/cli/node_modules/protoduck
+138 silly REMOVE node_modules/@angular/cli/node_modules/qs
+139 silly REMOVE node_modules/@angular/cli/node_modules/psl
+140 silly REMOVE node_modules/@angular/cli/node_modules/pumpify
+141 silly REMOVE node_modules/@angular/cli/node_modules/pumpify/node_modules/pump
+142 silly REMOVE node_modules/@angular/cli/node_modules/promise-retry
+143 silly REMOVE node_modules/@angular/cli/node_modules/ora
+144 silly REMOVE node_modules/@angular/cli/node_modules/path-parse
+145 silly REMOVE node_modules/@angular/cli/node_modules/performance-now
+146 silly REMOVE node_modules/@angular/cli/node_modules/promise-inflight
+147 silly REMOVE node_modules/@angular/cli/node_modules/parallel-transform
+148 silly REMOVE node_modules/@angular/cli/node_modules/process-nextick-args
+149 silly REMOVE node_modules/@angular/cli/node_modules/osenv
+150 silly REMOVE node_modules/@angular/cli/node_modules/pacote
+151 silly REMOVE node_modules/@angular/cli/node_modules/pacote/node_modules/yallist
+152 silly REMOVE node_modules/@angular/cli/node_modules/pacote/node_modules/semver
+153 silly REMOVE node_modules/@angular/cli/node_modules/pacote/node_modules/npm-pick-manifest
+154 silly REMOVE node_modules/@angular/cli/node_modules/pacote/node_modules/npm-package-arg
+155 silly REMOVE node_modules/@angular/cli/node_modules/pacote/node_modules/hosted-git-info
+156 silly REMOVE node_modules/@angular/cli/node_modules/pacote/node_modules/lru-cache
+157 silly REMOVE node_modules/@angular/cli/node_modules/pacote/node_modules/rimraf
+158 silly REMOVE node_modules/@angular/cli/node_modules/path-is-absolute
+159 silly REMOVE node_modules/@angular/cli/node_modules/open
+160 silly REMOVE node_modules/@angular/cli/node_modules/os-homedir
+161 silly REMOVE node_modules/@angular/cli/node_modules/os-tmpdir
+162 silly REMOVE node_modules/@angular/cli/node_modules/object-inspect
+163 silly REMOVE node_modules/@angular/cli/node_modules/object.getownpropertydescriptors
+164 silly REMOVE node_modules/@angular/cli/node_modules/onetime
+165 silly REMOVE node_modules/@angular/cli/node_modules/object-keys
+166 silly REMOVE node_modules/@angular/cli/node_modules/once
+167 silly REMOVE node_modules/@angular/cli/node_modules/object.assign
+168 silly REMOVE node_modules/@angular/cli/node_modules/npm-pick-manifest
+169 silly REMOVE node_modules/@angular/cli/node_modules/npm-registry-fetch
+170 silly REMOVE node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/yallist
+171 silly REMOVE node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/npm-package-arg
+172 silly REMOVE node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/hosted-git-info
+173 silly REMOVE node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/semver
+174 silly REMOVE node_modules/@angular/cli/node_modules/npm-registry-fetch/node_modules/lru-cache
+175 silly REMOVE node_modules/@angular/cli/node_modules/npm-packlist
+176 silly REMOVE node_modules/@angular/cli/node_modules/oauth-sign
+177 silly REMOVE node_modules/@angular/cli/node_modules/npm-normalize-package-bin
+178 silly REMOVE node_modules/@angular/cli/node_modules/npm-install-checks
+179 silly REMOVE node_modules/@angular/cli/node_modules/npm-bundled
+180 silly REMOVE node_modules/@angular/cli/node_modules/npm-package-arg
+181 silly REMOVE node_modules/@angular/cli/node_modules/normalize-package-data
+182 silly REMOVE node_modules/@angular/cli/node_modules/normalize-package-data/node_modules/semver
+183 silly REMOVE node_modules/@angular/cli/node_modules/normalize-package-data/node_modules/hosted-git-info
+184 silly REMOVE node_modules/@angular/cli/node_modules/node-fetch-npm
+185 silly REMOVE node_modules/@angular/cli/node_modules/mute-stream
+186 silly REMOVE node_modules/@angular/cli/node_modules/minizlib
+187 silly REMOVE node_modules/@angular/cli/node_modules/move-concurrently
+188 silly REMOVE node_modules/@angular/cli/node_modules/move-concurrently/node_modules/rimraf
+189 silly REMOVE node_modules/@angular/cli/node_modules/magic-string
+190 silly REMOVE node_modules/@angular/cli/node_modules/ms
+191 silly REMOVE node_modules/@angular/cli/node_modules/mkdirp
+192 silly REMOVE node_modules/@angular/cli/node_modules/mississippi
+193 silly REMOVE node_modules/@angular/cli/node_modules/minipass
+194 silly REMOVE node_modules/@angular/cli/node_modules/minipass/node_modules/yallist
+195 silly REMOVE node_modules/@angular/cli/node_modules/json-schema-traverse
+196 silly REMOVE node_modules/@angular/cli/node_modules/minimist
+197 silly REMOVE node_modules/@angular/cli/node_modules/mimic-fn
+198 silly REMOVE node_modules/@angular/cli/node_modules/mime-db
+199 silly REMOVE node_modules/@angular/cli/node_modules/mime-types
+200 silly REMOVE node_modules/@angular/cli/node_modules/minimatch
+201 silly REMOVE node_modules/@angular/cli/node_modules/lru-cache
+202 silly REMOVE node_modules/@angular/cli/node_modules/lodash
+203 silly REMOVE node_modules/@angular/cli/node_modules/json-stringify-safe
+204 silly REMOVE node_modules/@angular/cli/node_modules/make-fetch-happen
+205 silly REMOVE node_modules/@angular/cli/node_modules/make-fetch-happen/node_modules/lru-cache
+206 silly REMOVE node_modules/@angular/cli/node_modules/make-fetch-happen/node_modules/yallist
+207 silly REMOVE node_modules/@angular/cli/node_modules/jsonparse
+208 silly REMOVE node_modules/@angular/cli/node_modules/json-parse-even-better-errors
+209 silly REMOVE node_modules/@angular/cli/node_modules/jsonc-parser
+210 silly REMOVE node_modules/@angular/cli/node_modules/log-symbols
+211 silly REMOVE node_modules/@angular/cli/node_modules/jsprim
+212 silly REMOVE node_modules/@angular/cli/node_modules/isstream
+213 silly REMOVE node_modules/@angular/cli/node_modules/jsbn
+214 silly REMOVE node_modules/@angular/cli/node_modules/json-schema
+215 silly REMOVE node_modules/@angular/cli/node_modules/is-wsl
+216 silly REMOVE node_modules/@angular/cli/node_modules/is-weakref
+217 silly REMOVE node_modules/@angular/cli/node_modules/json-parse-better-errors
+218 silly REMOVE node_modules/@angular/cli/node_modules/isarray
+219 silly REMOVE node_modules/@angular/cli/node_modules/isexe
+220 silly REMOVE node_modules/@angular/cli/node_modules/is-unicode-supported
+221 silly REMOVE node_modules/@angular/cli/node_modules/is-string
+222 silly REMOVE node_modules/@angular/cli/node_modules/is-typedarray
+223 silly REMOVE node_modules/@angular/cli/node_modules/is-symbol
+224 silly REMOVE node_modules/@angular/cli/node_modules/is-interactive
+225 silly REMOVE node_modules/@angular/cli/node_modules/is-regex
+226 silly REMOVE node_modules/@angular/cli/node_modules/is-shared-array-buffer
+227 silly REMOVE node_modules/@angular/cli/node_modules/is-negative-zero
+228 silly REMOVE node_modules/@angular/cli/node_modules/is-number-object
+229 silly REMOVE node_modules/@angular/cli/node_modules/is-docker
+230 silly REMOVE node_modules/@angular/cli/node_modules/is-core-module
+231 silly REMOVE node_modules/@angular/cli/node_modules/is-fullwidth-code-point
+232 silly REMOVE node_modules/@angular/cli/node_modules/is-date-object
+233 silly REMOVE node_modules/@angular/cli/node_modules/is-bigint
+234 silly REMOVE node_modules/@angular/cli/node_modules/is-callable
+235 silly REMOVE node_modules/@angular/cli/node_modules/ini
+236 silly REMOVE node_modules/@angular/cli/node_modules/inquirer
+237 silly REMOVE node_modules/@angular/cli/node_modules/is-boolean-object
+238 silly REMOVE node_modules/@angular/cli/node_modules/internal-slot
+239 silly REMOVE node_modules/@angular/cli/node_modules/ip
+240 silly REMOVE node_modules/@angular/cli/node_modules/fast-deep-equal
+241 silly REMOVE node_modules/@angular/cli/node_modules/imurmurhash
+242 silly REMOVE node_modules/@angular/cli/node_modules/iferr
+243 silly REMOVE node_modules/@angular/cli/node_modules/fast-json-stable-stringify
+244 silly REMOVE node_modules/@angular/cli/node_modules/infer-owner
+245 silly REMOVE node_modules/@angular/cli/node_modules/iconv-lite
+246 silly REMOVE node_modules/@angular/cli/node_modules/inherits
+247 silly REMOVE node_modules/@angular/cli/node_modules/inflight
+248 silly REMOVE node_modules/@angular/cli/node_modules/https-proxy-agent
+249 silly REMOVE node_modules/@angular/cli/node_modules/https-proxy-agent/node_modules/debug
+250 silly REMOVE node_modules/@angular/cli/node_modules/ignore-walk
+251 silly REMOVE node_modules/@angular/cli/node_modules/http-signature
+252 silly REMOVE node_modules/@angular/cli/node_modules/get-intrinsic
+253 silly REMOVE node_modules/@angular/cli/node_modules/humanize-ms
+254 silly REMOVE node_modules/@angular/cli/node_modules/http-proxy-agent
+255 silly REMOVE node_modules/@angular/cli/node_modules/http-proxy-agent/node_modules/ms
+256 silly REMOVE node_modules/@angular/cli/node_modules/http-proxy-agent/node_modules/debug
+257 silly REMOVE node_modules/@angular/cli/node_modules/http-cache-semantics
+258 silly REMOVE node_modules/@angular/cli/node_modules/har-schema
+259 silly REMOVE node_modules/@angular/cli/node_modules/has-tostringtag
+260 silly REMOVE node_modules/@angular/cli/node_modules/has-bigints
+261 silly REMOVE node_modules/@angular/cli/node_modules/hosted-git-info
+262 silly REMOVE node_modules/@angular/cli/node_modules/has-symbols
+263 silly REMOVE node_modules/@angular/cli/node_modules/glob
+264 silly REMOVE node_modules/@angular/cli/node_modules/har-validator
+265 silly REMOVE node_modules/@angular/cli/node_modules/has-flag
+266 silly REMOVE node_modules/@angular/cli/node_modules/has
+267 silly REMOVE node_modules/@angular/cli/node_modules/get-stream
+268 silly REMOVE node_modules/@angular/cli/node_modules/getpass
+269 silly REMOVE node_modules/@angular/cli/node_modules/fs.realpath
+270 silly REMOVE node_modules/@angular/cli/node_modules/get-symbol-description
+271 silly REMOVE node_modules/@angular/cli/node_modules/graceful-fs
+272 silly REMOVE node_modules/@angular/cli/node_modules/form-data
+273 silly REMOVE node_modules/@angular/cli/node_modules/function-bind
+274 silly REMOVE node_modules/@angular/cli/node_modules/genfun
+275 silly REMOVE node_modules/@angular/cli/node_modules/figgy-pudding
+276 silly REMOVE node_modules/@angular/cli/node_modules/fs-write-stream-atomic
+277 silly REMOVE node_modules/@angular/cli/node_modules/fs-minipass
+278 silly REMOVE node_modules/@angular/cli/node_modules/from2
+279 silly REMOVE node_modules/@angular/cli/node_modules/forever-agent
+280 silly REMOVE node_modules/@angular/cli/node_modules/flush-write-stream
+281 silly REMOVE node_modules/@angular/cli/node_modules/figures
+282 silly REMOVE node_modules/@angular/cli/node_modules/extsprintf
+283 silly REMOVE node_modules/@angular/cli/node_modules/es6-promise
+284 silly REMOVE node_modules/@angular/cli/node_modules/external-editor
+285 silly REMOVE node_modules/@angular/cli/node_modules/es-to-primitive
+286 silly REMOVE node_modules/@angular/cli/node_modules/extend
+287 silly REMOVE node_modules/@angular/cli/node_modules/es6-promisify
+288 silly REMOVE node_modules/@angular/cli/node_modules/es-abstract
+289 silly REMOVE node_modules/@angular/cli/node_modules/escape-string-regexp
+290 silly REMOVE node_modules/@angular/cli/node_modules/err-code
+291 silly REMOVE node_modules/@angular/cli/node_modules/end-of-stream
+292 silly REMOVE node_modules/@angular/cli/node_modules/duplexify
+293 silly REMOVE node_modules/@angular/cli/node_modules/encoding
+294 silly REMOVE node_modules/@angular/cli/node_modules/encoding/node_modules/iconv-lite
+295 silly REMOVE node_modules/@angular/cli/node_modules/ecc-jsbn
+296 silly REMOVE node_modules/@angular/cli/node_modules/defaults
+297 silly REMOVE node_modules/@angular/cli/node_modules/emoji-regex
+298 silly REMOVE node_modules/@angular/cli/node_modules/delayed-stream
+299 silly REMOVE node_modules/@angular/cli/node_modules/define-properties
+300 silly REMOVE node_modules/@angular/cli/node_modules/dezalgo
+301 silly REMOVE node_modules/@angular/cli/node_modules/combined-stream
+302 silly REMOVE node_modules/@angular/cli/node_modules/debuglog
+303 silly REMOVE node_modules/@angular/cli/node_modules/debug
+304 silly REMOVE node_modules/@angular/cli/node_modules/call-bind
+305 silly REMOVE node_modules/@angular/cli/node_modules/cyclist
+306 silly REMOVE node_modules/@angular/cli/node_modules/copy-concurrently
+307 silly REMOVE node_modules/@angular/cli/node_modules/copy-concurrently/node_modules/rimraf
+308 silly REMOVE node_modules/@angular/cli/node_modules/color-name
+309 silly REMOVE node_modules/@angular/cli/node_modules/color-convert
+310 silly REMOVE node_modules/@angular/cli/node_modules/core-util-is
+311 silly REMOVE node_modules/@angular/cli/node_modules/concat-map
+312 silly REMOVE node_modules/@angular/cli/node_modules/dashdash
+313 silly REMOVE node_modules/@angular/cli/node_modules/chardet
+314 silly REMOVE node_modules/@angular/cli/node_modules/cli-spinners
+315 silly REMOVE node_modules/@angular/cli/node_modules/ajv
+316 silly REMOVE node_modules/@angular/cli/node_modules/concat-stream
+317 silly REMOVE node_modules/@angular/cli/node_modules/clone
+318 silly REMOVE node_modules/@angular/cli/node_modules/cli-width
+319 silly REMOVE node_modules/@angular/cli/node_modules/chownr
+320 silly REMOVE node_modules/@angular/cli/node_modules/cli-cursor
+321 silly REMOVE node_modules/@angular/cli/node_modules/cacache
+322 silly REMOVE node_modules/@angular/cli/node_modules/cacache/node_modules/yallist
+323 silly REMOVE node_modules/@angular/cli/node_modules/cacache/node_modules/lru-cache
+324 silly REMOVE node_modules/@angular/cli/node_modules/cacache/node_modules/rimraf
+325 silly REMOVE node_modules/@angular/cli/node_modules/chalk
+326 silly REMOVE node_modules/@angular/cli/node_modules/bcrypt-pbkdf
+327 silly REMOVE node_modules/@angular/cli/node_modules/caseless
+328 silly REMOVE node_modules/@angular/cli/node_modules/builtins
+329 silly REMOVE node_modules/@angular/cli/node_modules/buffer-from
+330 silly REMOVE node_modules/@angular/cli/node_modules/balanced-match
+331 silly REMOVE node_modules/@angular/cli/node_modules/bluebird
+332 silly REMOVE node_modules/@angular/cli/node_modules/ansi-colors
+333 silly REMOVE node_modules/@angular/cli/node_modules/brace-expansion
+334 silly REMOVE node_modules/@angular/cli/node_modules/aws4
+335 silly REMOVE node_modules/@angular/cli/node_modules/asynckit
+336 silly REMOVE node_modules/@angular/cli/node_modules/asn1
+337 silly REMOVE node_modules/@angular/cli/node_modules/asap
+338 silly REMOVE node_modules/@angular/cli/node_modules/assert-plus
+339 silly REMOVE node_modules/@angular/cli/node_modules/aws-sign2
+340 silly REMOVE node_modules/@angular/cli/node_modules/JSONStream
+341 silly REMOVE node_modules/@angular/cli/node_modules/ansi-styles
+342 silly REMOVE node_modules/@angular/cli/node_modules/aproba
+343 silly REMOVE node_modules/@angular/cli/node_modules/ansi-regex
+344 silly REMOVE node_modules/@angular/cli/node_modules/agentkeepalive
+345 silly REMOVE node_modules/@angular/cli/node_modules/ansi-escapes
+346 silly REMOVE node_modules/@angular/cli/node_modules/agent-base
+347 timing command:uninstall Completed in 15213ms
+348 verbose exit 0
+349 timing npm Completed in 17858ms
+350 info ok
